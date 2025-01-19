@@ -1,49 +1,153 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
 .nav {
-    width: 1190px;
-    height: 100px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 20px;
-    border: 2px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 2px solid grey;
+
 }
 
 .navlist {
-    gap: 10px;
-    display: flex;
-    justify-content: center;
-    margin-top: -20px;
-}
+   list-style-type: none;
+   display: flex;
+   gap: 20px;
 
+}
+.navlist li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease,color 0.3 ease;
+}
+.navlist li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+
+}
 .navicon {
     width: 50px;
     height: 50px;
-    margin-top: 18px;
+
 }
 
 .textcolor {
     color: white;
 }
 
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+#home {
+    background:url("ima.jpeg") no-repeat center center/cover ;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
 .img {
     width: 100%;
     height: 550px;
 
 }
 .content- {
-    font-size: xx-large;
-    color: aliceblue;
-    margin-top: ;
+    font-size: 3em;
+    margin-bottom: 20px;
+
+    
+}
+.banner-buttons a {
+text-decoration: none;
+color: white;
+background-color: #333;
+padding: 10px 20px;
+margin: 10px;
+border-radius: 5px;
+transition: background-color 0.3s ease,color 0.3 ease;
+
+}
+.banner-buttons a:hover {
+    background-color: #555;
+
+}
+.sub-heading h1 {
+font-size: 2.5em;
+margin-bottom: 20px;
+color: #fff;
 }
 .services {
     
-        width:100%; 
-        height: 50%;
-        background-color: green;
+        color: #fff;
+        background-color: aqua;
         text-align: center;
-        border-radius: 2%;
-        padding: 1%;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
-.marsh {
-    width: 100%;
-    height: 10%;
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+.services ul li{
+font-size: 1.2em;
+margin: 10px 0;
+}
+.contact {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+
+}
+.contact-heading {
+    margin-bottom: 20px;
+}
+.contact-heading img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+
+}
+.contact ul{
+    list-style-type:none ;
+    padding: 0;
+    text-align: left;
+}
+.contact ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+
+}
+.contact ul li a{
+    color: aquamarine;
+    text-decoration: none;
+
+}
+.contact ul li a:hover{
+    text-decoration: underline;
+
+}
+.contact p {
+    margin:10px 0;
+
+}
+a{
+    color: aquamarine;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
 }
